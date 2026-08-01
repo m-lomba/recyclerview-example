@@ -1,14 +1,21 @@
-# Android RecyclerView Example
+# Android RecyclerView & Glide Example (Java)
 
-A lightweight Android reference app demonstrating clean `RecyclerView` implementation.
+An Android reference application demonstrating dynamic list rendering using `RecyclerView` and image loading via **Glide** in Java.
 
-## Purpose
-Created as a clean boilerplate and reference template for implementing dynamic lists with a custom Adapter, ViewHolder, and click listeners, without re-writing initial setup code.
+## Overview
+This project serves as a practical reference implementation for building performant UI lists in Android using Java. It showcases how to construct a custom adapter, handle model binding with a contact list example, and integrate asynchronous image loading and caching using the Glide library.
+
+## Key Features
+* **RecyclerView Adapter Pattern:** Implementation of custom `RecViewAdapter` for view recycling and list management.
+* **Model Binding:** Data mapping using a dedicated `Contact` model class.
+* **Image Loading & Caching:** Integration of **Glide v4.12.0** for asynchronous image fetching, caching, and rendering inside list items.
 
 ## Tech Stack
-* **Language:** Kotlin
-* **UI Component:** `androidx.recyclerview.widget.RecyclerView`
-* **Min SDK:** 21
+* **Language:** Java 8
+* **UI Components:** `androidx.recyclerview`, `ConstraintLayout`, Material Components
+* **Image Loading:** `com.github.bumptech.glide:glide:4.12.0`
+* **Min SDK:** 16 (Android 4.1)
+* **Target SDK:** 30
 
 ## Quick Setup
 1. Clone the repository:
@@ -16,4 +23,4 @@ Created as a clean boilerplate and reference template for implementing dynamic l
    git clone https://github.com/m-lomba/recyclerview-example.git
    ```
 2. Open the project in **Android Studio**.
-3. Run on any emulator or physical device (API 21+).
+3. Build and run on an emulator or physical device running API 16 or higher.
