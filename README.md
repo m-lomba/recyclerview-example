@@ -3,7 +3,7 @@
 An Android reference application demonstrating dynamic list rendering using `RecyclerView` and image loading via Glide in Java.
 
 ## Overview
-This project serves as a practical reference implementation for building performant UI lists in Android using Java. It showcases how to construct a custom adapter, handle model binding with a contact list example, and integrate asynchronous image loading and caching using the Glide library.
+This project serves as a reference implementation for building performant UI lists in Android using Java. It showcases how to construct a custom adapter, handle model binding with a contact list example, and integrate asynchronous image loading and caching using the Glide library.
 
 ## Tech Stack
 * **Language:** Java 8
